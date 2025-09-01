@@ -4,64 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">
-            header logo
-        </div>
-        <div class="header-links">
-            <a href="">one</a>
-            <a href="">two</a>
-            <a href="">three</a>
-        </div>
-    </div>
-    <div class="mid-content">
-        <div class="main-module">
-            <div class="signup-module">
-                <h1>This Webstie</h1>
-                <p>This Webstie is cool</p>
-                <button>Sign Up</button>
-            </div>
-            <div class="main-image-module">
-                <img src="" alt="this is a placeholder for an image">
-            </div>
-        </div>
-        <div class="information-module">
-            <h1>Some random info</h1>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>this is some subtext</p>
-            </div>
-        </div>
-        <div class="quote-module">
-            <p>This is an inspiring quout</p>
-            <strong>-Thor, god of thunder</strong>
-        </div>
-        <div class="cta-module">
-            <div class="cta-content">
-                <strong>Call to action!</strong>
-                <p>Sign up for our product</p>
-                <button>Sing up</button>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        Copyright © The Odin Project 2021
-    </div>
+    <header id="header">
+        <p>Header Logo</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">header link one</a>
+                </li>
+                <li>
+                    <a href="">header link two</a>
+                </li>
+                <li>
+                    <a href="">header link three</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext goes here under the main title. Its a smaller font and the color is lower</p>
+            <button>Sign up</button>
+            <figure>
+                <img src="images/greyimg.jpg" alt="grey color">
+                <figcaption>this is a placeholder for an image</figcaption>
+            </figure>
+        </section>
+        <section class="information">
+            <h2>Some random information</h2>
+            <figure>
+                <img src="images/blueimg.jpg" alt="blue color">
+                <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure>
+                <img src="images/blueimg.jpg" alt="blue color">
+                <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure>
+                <img src="images/blueimg.jpg" alt="blue color">
+                <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure>
+                <img src="images/blueimg.jpg" alt="blue color">
+                <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+        </section>
+        <section class="quote">
+            <blockquote>
+                <p>In paremiology, it is a rhetorical 
+                    device that consists of reproducing 
+                    a fragment of a human expression 
+                    while respecting its original formulation, 
+                    inserting it into one’s own discourse, 
+                    generally also adhering to the type of 
+                    channel in which it was originally communicated, 
+                    with the objectives of functioning as:
+                </p>
+                <cite>Thor, God of Thunder</cite>
+            </blockquote>
+        </section>
+        <section class="cta">
+            <h2>Call to action! It's time!</h2>
+            <p>Sing up for our product by clicking that button right over there!</p>
+            <button>Sign up</button>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
     
 </body>
 </html>
