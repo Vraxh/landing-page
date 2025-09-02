@@ -1,4 +1,129 @@
 body {
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+#header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.list_links {
+    list-style-type: none;
+    display: flex;
+}
+
+.list_links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.hero {
+    background-color: #1f2937;
+    padding: 60px 20px;     
+}
+
+.hero_settings {
+    max-width: 1200px;
+    margin:  0 auto;
+    display: flex;
+}
+
+
+.information {
+    background-color: white;
+    padding: 60px 20px;
+}
+
+.information_settings {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px 20px;
+}
+
+.quote_settings {
+    max-width: 1200px;
+    margin:  0 auto;
+}
+
+.cta {
+    background-color: white;
+    padding: 60px 20px;
+}
+
+.cta_settings {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: #1f2937;
+    text-align: center;
+}
+/*
+
+
+
+
+.hero_left h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero_left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_left button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_img {
+    display: flex;
+}
+
+.info_img figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info_img figure img {
+    border-radius: 10%;
+}
+*/
