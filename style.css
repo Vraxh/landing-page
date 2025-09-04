@@ -8,14 +8,22 @@ body {
     flex-direction: column;
 }
 
-
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 #header {
     background-color: #1f2937;
+    flex-shrink: 1;
+}
+
+.header_settings {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .list_links {
@@ -38,6 +46,10 @@ body {
 .hero {
     background-color: #1f2937;
     padding: 60px 20px;     
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .hero_settings {
@@ -46,10 +58,35 @@ body {
     display: flex;
 }
 
+.hero_left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero_left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 28px;
+    border-color: #3882f6;
+    border: none;
+    
+}
 
 .information {
     background-color: white;
     padding: 60px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .information_settings {
@@ -59,9 +96,22 @@ body {
     flex-direction: column;
 }
 
+.info_img {
+    display: flex;
+}
+
+.info_img figure {
+    margin: 0;
+    padding: 0;
+}
+
 .quote {
     background-color: #e5e7eb;
     padding: 60px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .quote_settings {
@@ -69,9 +119,21 @@ body {
     margin:  0 auto;
 }
 
+blockquote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+blockquote cite {
+    font-weight: bold;
+}
+
 .cta {
     background-color: white;
     padding: 60px 20px;
+    flex: 1;
+    display: flex;
 }
 
 .cta_settings {
@@ -79,11 +141,32 @@ body {
     margin: 0 auto;
     background-color: #3882f6;
     border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.cta_settings h2 {
+    color: white;
+}
+
+.cta_settings p {
+    color: white;
+}
+
+.cta_button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px 25px;
+    border-color: #e5e7eb;
 }
 
 #footer {
     background-color: #1f2937;
     text-align: center;
+    flex-shrink: 1;
 }
 /*
 
