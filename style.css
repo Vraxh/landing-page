@@ -23,7 +23,8 @@ main {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .list_links {
@@ -94,6 +95,7 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .info_img {
@@ -103,6 +105,7 @@ main {
 .info_img figure {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .quote {
@@ -134,6 +137,7 @@ blockquote cite {
     padding: 60px 20px;
     flex: 1;
     display: flex;
+    align-items: center;
 }
 
 .cta_settings {
@@ -155,12 +159,12 @@ blockquote cite {
 }
 
 .cta_button {
-    background-color: #3882f6;
+    background-color: transparent;
     color: #e5e7eb;
     font-weight: bold;
     border-radius: 5px;
     padding: 2px 25px;
-    border-color: #e5e7eb;
+    border: 2px solid #e5e7eb;
 }
 
 #footer {
