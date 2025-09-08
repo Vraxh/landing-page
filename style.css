@@ -30,6 +30,7 @@ main {
 .list_links {
     list-style-type: none;
     display: flex;
+    gap: 50px;
 }
 
 .list_links a {
@@ -57,9 +58,14 @@ main {
     max-width: 1200px;
     margin:  0 auto;
     display: flex;
+    gap: 10px;
 }
 
-.hero_left h1 {
+.hero_left {
+    flex-basis: 50%;
+}
+
+.hero_left h2 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -68,6 +74,19 @@ main {
 .hero_left p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero_right {
+    margin: 0;
+    flex-grow: 1;
+    max-width: 50%;
+    
+}
+
+.img_hero {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .hero_button {
@@ -100,6 +119,13 @@ main {
 
 .info_img {
     display: flex;
+    gap: 50px;
+}
+
+.info_img figure img {
+    width: 100%;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
 }
 
 .info_img figure {
@@ -122,14 +148,15 @@ main {
     margin:  0 auto;
 }
 
-blockquote p {
+.quote_text {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
 }
 
-blockquote cite {
+.quote_cite {
     font-weight: bold;
+    text-align: right;
 }
 
 .cta {
@@ -148,14 +175,19 @@ blockquote cite {
     flex: 1;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 30px 60px;
+    justify-content: space-around;
 }
 
 .cta_settings h2 {
     color: white;
+    margin: 0;
 }
 
 .cta_settings p {
     color: white;
+    margin: 0;
 }
 
 .cta_button {
@@ -171,6 +203,7 @@ blockquote cite {
     background-color: #1f2937;
     text-align: center;
     flex-shrink: 1;
+    color: #e5e7eb;
 }
 /*
 
